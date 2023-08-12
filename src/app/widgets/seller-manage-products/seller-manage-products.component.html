@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3>Manage Products ({{productCount}})</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Image</th>
+              <th>Title</th>
+              <th>Stock</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody *ngFor="let item of products">
+            <tr>
+              <td routerLink="/product/{{item._id}}" ><img src="{{image_path}}{{item.productImages[0]}}" alt="Product Image" width="100" height="100"></td>
+              <td routerLink="/product/{{item._id}}" >{{item.title}}</td>
+              <td routerLink="/product/{{item._id}}" >{{item.stock}}</td>
+              <td style="display: flex;">
+                <button class="btn btn-primary btn-sm mx-1" (click)="sendData(item)">Edit</button>
+                <button class="btn btn-danger btn-sm mx-1" (click)="deleteProduct(item._id)">Delete</button>
+              </td>
+            </tr>
+            <!-- Add more product rows as needed -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  

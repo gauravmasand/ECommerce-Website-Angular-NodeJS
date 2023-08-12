@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary bg-primary">
+    <div class="container-fluid container">
+        <a class="navbar-brand" routerLink="">ECOMM</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <form class="collapse navbar-collapse mx-3" role="search" [formGroup]="searchForm" (ngSubmit)="submitSearch()">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" formControlName="searchQuery">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> 
+        <div class=" d-flex" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" [ngClass]="{'active': currentPage==='home'}" (click)="changeNavPage('home')" routerLink="">Home</a>
+                </li>
+                <li class="nav-item" *ngIf="this.isSeller">
+                    <a class="nav-link" [ngClass]="{'active': currentPage==='seller-home'}" (click)="changeNavPage('seller-home')" routerLink="seller-home">Dashboard</a>
+                </li>
+                <li class="nav-item"  *ngIf="this.loginVisibility">
+                    <a class="nav-link" [ngClass]="{'active': currentPage==='seller'}" (click)="changeNavPage('seller')" routerLink="/seller-auth">Seller</a>
+                </li>
+                <li class="nav-item" *ngIf="this.loginVisibility">
+                    <a class="nav-link" [ngClass]="{'active': currentPage==='login'}" (click)="changeNavPage('loin')" routerLink="/user-auth">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [ngClass]="{'active': currentPage==='cart'}" (click)="changeNavPage('cart')" routerLink="/cart">Cart(0)</a>
+                </li>
+                <li *ngIf="hasOrders" class="nav-item">
+                    <a class="nav-link" [ngClass]="{'active': currentPage==='orders'}" (click)="changeNavPage('orders')" routerLink="/orders">Orders</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [ngClass]="{'active': currentPage==='settings'}" (click)="changeNavPage('settings')" routerLink="/settings">Settings</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

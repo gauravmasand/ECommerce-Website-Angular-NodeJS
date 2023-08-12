@@ -1,0 +1,125 @@
+[{
+  "_id": {
+    "$oid": "64afe81caedb13c00daeff45"
+  },
+  "customerId": "64a156866c6ff84c8c1a43ea",
+  "customerName": "Gaurav Sanjay Masand",
+  "customerAddress": "AMRAVATI\nAMRAVATI\nNaN\nIndia",
+  "customerEmail": "gaurav@example.com",
+  "customerPaymentType": "cod",
+  "productId": "64abbce59d837ed1a06e35f7",
+  "sellerId": "64a156866c6ff84c8c1a43ea",
+  "productTitle": "Dell 14, Intel 12th Gen i5-1235U Laptop/8GB/512GB SSD/14.0\" (35.56cm) FHD TÜV Rheinland Certified Comfortview to Reduce Harmful Blue Light Emission/Windows 11 + MSO'21/Black/15 Month McAfee,1.48kg",
+  "productImageName": "productImages-1688976613874-955828540.jpg",
+  "desc": "Processor: Intel Core i5-1235U 12th Generation (up to 4.40 GHz, 12MB 10 Cores) // RAM & Storage: 8 GB, 1 x 8 GB, DDR4, 2666 MHz, (2 DIMM Slots, Expandable upto 16GB) & 512GB SSDland certified Dell ComfortView to reduce Harmful blue light: 15 Months McAfee antivirus subscription: Waves Maxx Audio tuned speakers and microphones optimize audio: Hardware-based TPM 2.0 security chip\r\n",
+  "offers": "No Cost EMI\r\nUpto ₹4,869.80 EMI interest savings on select Credit CardsUpto ₹4,869.80 EMI interest savings on select Credit Cards",
+  "actualCost": 750,
+  "discount": 25,
+  "quantity": 4,
+  "markAsSent": true,
+  "sellerCanceled": false,
+  "date": {
+    "$date": "2023-07-13T12:03:40.400Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64afe81caedb13c00daeff48"
+  },
+  "customerId": "64a156866c6ff84c8c1a43ea",
+  "customerName": "Gaurav Sanjay Masand",
+  "customerAddress": "AMRAVATI\nAMRAVATI\nNaN\nIndia",
+  "customerEmail": "gaurav@example.com",
+  "customerPaymentType": "cod",
+  "productId": "64a9646c85fe1f0299417313",
+  "sellerId": "64a156866c6ff84c8c1a43ea",
+  "productTitle": "Apple 2023 MacBook Pro Laptop M2 Pro chip with 10‑core CPU and 16‑core GPU: 33.74 cm (14.2-inch), 16GB Unified Memory, 512GB SSD Storage, Works with iPhone/iPad; Silver",
+  "productImageName": "productImages-1688822892597-388224483.jpg",
+  "desc": "\r\nBrand\tApple\r\nModel Name\tMacBook Pro\r\nScreen Size\t14 Inches\r\nColour\tSilver\r\nHard Disk Size\t1000 GB\r\nCPU Model\tUnknown\r\nRAM Memory Installed Size\t32 GB",
+  "offers": "Bank Offer\r\nUpto ₹5,000.00 discount on select Credit Cards, HDFC Bank Debit CardsUpto ₹5,000.00 discount on select Credit Cards, HDFC…\r\n\r\nNo Cost EMI\r\nUpto ₹9,006.65 EMI interest savings on Amazon Pay ICICI Bank Credit CardsUpto ₹9,006.65 EMI interest savings on Amazon Pay ICICI…",
+  "actualCost": 2000,
+  "discount": 1,
+  "quantity": 7,
+  "markAsSent": false,
+  "sellerCanceled": false,
+  "date": {
+    "$date": "2023-07-13T12:03:40.406Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64afe81caedb13c00daeff4b"
+  },
+  "customerId": "64a156866c6ff84c8c1a43ea",
+  "customerName": "Gaurav Sanjay Masand",
+  "customerAddress": "AMRAVATI\nAMRAVATI\nNaN\nIndia",
+  "customerEmail": "gaurav@example.com",
+  "customerPaymentType": "cod",
+  "productId": "64abbe069d837ed1a06e3620",
+  "sellerId": "64a156866c6ff84c8c1a43ea",
+  "productTitle": "Xiaomi Notebook Ultra Max 11th Gen Intel Core i5-11320H Thin & Light (16GB/512GB SSD/Iris Xe Graphics/15.6\" 3.2K Resolution/Win 11/Thunderbolt 4/MS Office '21/Fingerprint Sensor/1.7 Kg)",
+  "productImageName": "productImages-1688976902399-774202898.jpg",
+  "desc": "Processor: 11th Gen Intel Tiger Lake Core i5-11320H processor| Speed: 3.1 GHz(base) - 4.4 GHz(max) | 4 cores | 8 Threads | 8 MB Cache\r\n",
+  "offers": "No Cost EMI\r\nUpto ₹2,206.36 EMI interest savings on Amazon Pay ICICI Bank Credit CardsUpto ₹2,206.36 EMI interest savings on Amazon Pay",
+  "actualCost": 700,
+  "discount": 14,
+  "quantity": 5,
+  "markAsSent": false,
+  "sellerCanceled": false,
+  "date": {
+    "$date": "2023-07-13T12:03:40.410Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64afe81caedb13c00daeff4e"
+  },
+  "customerId": "64a156866c6ff84c8c1a43ea",
+  "customerName": "Gaurav Sanjay Masand",
+  "customerAddress": "AMRAVATI\nAMRAVATI\nNaN\nIndia",
+  "customerEmail": "gaurav@example.com",
+  "customerPaymentType": "cod",
+  "productId": "64abd49e9d837ed1a06e3637",
+  "sellerId": "64a156866c6ff84c8c1a43ea",
+  "productTitle": " Brand\tHP Model Name\tHP Screen Size\t15.6 Inches Color\tRed Hard Disk Size\t1 TB CPU Model\tPentium N5000 Ram Memory Installed Size\t16 GB Operating System\tWindows 10 S Graphics Card Description\tIntegrated Graphics Coprocessor\tIntel UHD Graphics 605",
+  "productImageName": "productImages-1688982686948-176486337.jpg",
+  "desc": "\r\nBrand\tAcer\r\nModel Name\tA315-24P-R7VH\r\nScreen Size\t15.6 Inches\r\nColor\tSilver\r\nHard Disk Size\t128 GB\r\nCPU Model\tRyzen 3\r\nRam Memory Installed Size\t8 GB\r\nOperating System\tWindows 11 S\r\nGraphics Card Description\tIntegrated\r\nGraphics Coprocessor\tAMD Radeon Graphics\r\n",
+  "offers": "No Cost EMI\r\nUpto ₹1,372.91 EMI interest savings on Amazon Pay ICICI Bank Credit CardsUpto ₹1,372.91 EMI interest savings on Amazon Pay ",
+  "actualCost": 500,
+  "discount": 30,
+  "quantity": 10,
+  "markAsSent": false,
+  "sellerCanceled": false,
+  "date": {
+    "$date": "2023-07-13T12:03:40.413Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c2516cd1568ae83762f930"
+  },
+  "customerId": "64a156866c6ff84c8c1a43ea",
+  "customerName": "Gaurav Sanjay Masand",
+  "customerAddress": "AMRAVATI\nAMRAVATI\nNaN\nIndia",
+  "customerEmail": "gaurav@example.com",
+  "customerPaymentType": "cod",
+  "productId": "64c25125d1568ae83762f8db",
+  "sellerId": "64a156866c6ff84c8c1a43eb",
+  "productTitle": "EYEBOGLER Men's Striped Regular fit T-Shirt (T285HS_White Darknavy Indigo Royal S) EYEBOGLERMenRegularT-Shirt",
+  "productImageName": "productImages-1690456357428-428862747.jpg",
+  "desc": "Raglan sleeves for a sporty look\r\nFamously durable beefy-t fabric",
+  "offers": "NO OFFER",
+  "actualCost": 10,
+  "discount": 50,
+  "quantity": 1,
+  "markAsSent": false,
+  "sellerCanceled": false,
+  "date": {
+    "$date": "2023-07-27T11:13:48.628Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "64abbb7e9d837ed1a06e35c9"
+  },
+  "userId": "64a156866c6ff84c8c1a43ea",
+  "isSeller": true,
+  "cartData": [
+    {
+      "productId": "64abd49e9d837ed1a06e3637",
+      "quantity": 3,
+      "_id": {
+        "$oid": "64d72e7c55f64a2fc1abb9be"
+      }
+    },
+    {
+      "productId": "64abbc389d837ed1a06e35ea",
+      "quantity": 1,
+      "_id": {
+        "$oid": "64d72e7f55f64a2fc1abb9c2"
+      }
+    }
+  ],
+  "__v": 46
+}]

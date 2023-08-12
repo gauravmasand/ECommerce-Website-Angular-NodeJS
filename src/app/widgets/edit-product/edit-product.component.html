@@ -1,0 +1,105 @@
+<div *ngIf="this.status == 'success'">
+    <div class="alert alert-success" role="alert">
+        Product updated successful!
+    </div>
+</div>
+
+
+<h4 *ngIf="this.status == ''">Update Product</h4>
+
+
+<form>
+
+    <div *ngIf="this.status == 'failed'">
+        <div class="alert alert-danger" role="alert">
+            Something went wrong! Please try again!
+        </div>
+    </div>
+
+    <div class="form-group my-2">
+        <label for="productTitle my-2">Product Title</label>
+        <input type="text" class="form-control my-2" id="productTitle" placeholder="Enter product title"
+            [(ngModel)]="this.productData.title" name="productTitle">
+    </div>
+    <div class="form-group my-2">
+        <label for="productDescription my-2">Product Description</label>
+        <textarea class="form-control my-2" id="productDescription" rows="3" placeholder="Enter product description"
+            [(ngModel)]="this.productData.desc" name="productDescription"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <strong for="productImages" class="form-label">Product Images</strong>
+        <input type="file" name="productImages" class="form-control" id="productImages" [(ngModel)]="this.productImages"
+            (change)="onFileSelected($event)" required multiple>
+    </div>
+    <div class="image-preview row">
+        <div class="col-md-3 mt-3" *ngFor="let image of selectedImages">
+            <img [src]="image" alt="Product Image" *ngIf="image" width="200">
+        </div>
+    </div>
+
+    <br><strong for="productImages" class="form-label">Current Images</strong><br>
+    <div class="image-preview row">
+        <div class="col-md-3 mt-3" *ngFor="let image of this.productData.productImages">
+            <img [src]="product_image_path + image" alt="Product Image" *ngIf="image" width="200">
+        </div>
+    </div>
+
+    <div class="form-group my-2">
+        <label for="productFeatures my-2">Product Features</label>
+        <textarea class="form-control my-2" id="productFeatures" rows="3" placeholder="Enter product features"
+            [(ngModel)]="this.productData.productFeatures" name="productFeatures"></textarea>
+    </div>
+    <div class="form-group my-2">
+        <label for="productPrice my-2">Product Price</label>
+        <input type="number" class="form-control my-2" id="productPrice" placeholder="Enter product price"
+            [(ngModel)]="this.productData.actualCost" name="productPrice">
+    </div>
+    <div class="form-group my-2">
+        <label for="productDiscount my-2">Product Discount</label>
+        <input type="number" class="form-control my-2" id="productDiscount" placeholder="Enter product discount" min="0"
+            max="100" [(ngModel)]="this.productData.discount" name="productDiscount">
+    </div>
+    <div class="form-group">
+        <label for="productOffers my-2">Product Offers</label>
+        <textarea class="form-control my-2" id="productOffers" rows="3" placeholder="Enter product offers"
+            [(ngModel)]="this.productData.offers" name="productOffers"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label for="category" class="form-label">Category</label>
+        <select name="category" [(ngModel)]="this.productData.category" class="form-control" id="category" required
+            (change)="onCategoryChange()">
+            <option value="" disabled selected>Select category</option>
+            <option *ngFor="let item of allCategories" [value]="item.name">{{ item.name }}</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label for="subcategory" class="form-label">Subcategory</label>
+        <select name="subcategory" [(ngModel)]="this.productData.subCategory" class="form-control" id="subcategory" required>
+            <option value="" disabled selected>Select subcategory</option>
+            <option *ngFor="let subCategory of selectedCategory?.subcategories" [value]="subCategory">{{ subCategory }}
+            </option>
+        </select>
+    </div>
+
+    <div class="form-group my-2">
+        <label for="stock">Stock</label>
+        <input type="number" class="form-control my-2" id="stock" placeholder="Enter stock" min="0"
+            [(ngModel)]="this.productData.stock" name="productStock">
+    </div>
+    <button type="submit" (click)="updateProduct()" class="btn btn-primary">Update Product Details</button>
+</form>
+
+
+<div *ngIf="this.status == 'success'">
+    <div class="alert alert-success" role="alert">
+        Product updated successful!
+    </div>
+</div>
+
+
+<br>
+<br>
+<br>
+<br>

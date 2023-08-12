@@ -1,0 +1,98 @@
+<br>
+<div class="row">
+    <div class="col-md-6 product-parent">
+        <!-- Product Images -->
+        <div id="productCarousel" class="carousel slide image-container" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <!-- {{(currentDisplayedIndex+1)}} -->
+            </ol>
+
+            <!-- Carousel Images -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img [src]="featuredImageList[currentDisplayedIndex]" style="height: 500px; object-fit: contain;"
+                        class="d-block w-100" alt="Carousel Image">
+                </div>
+            </div>
+
+            <!-- Carousel Controls -->
+            <a style="text-decoration: none;" class="carousel-control-prev" role="button"
+                data-bs-target="#productCarousel" data-bs-slide="prev" (click)="prevImage()">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+            </a>
+            <a style="text-decoration: none;" class="carousel-control-next" role="button"
+                data-bs-target="#productCarousel" data-bs-slide="next" (click)="nextImage()">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Product Details -->
+    <div class="col-md-6 product-details" style="max-height: 100%;">
+        <h4>{{this.product.title}}</h4>
+        <p>{{this.product.desc}}</p>
+
+        <!-- List of Features -->
+        <ul style="white-space: pre-line;">
+            <li *ngFor="let feature of this.product.productFeatures.split('\n')">{{ feature }}</li>
+        </ul>
+
+        <!-- List of Offers -->
+        <h6>Discounts and Offers</h6>
+        <ul>
+            <ng-container *ngFor="let offer of product.offers.split('\n')">
+                <li *ngIf="offer.trim() !== ''">{{ offer }}</li>
+            </ng-container>
+        </ul>
+
+
+        <!-- Product Price and Discount -->
+        <div style="display: flex;">
+            <h5 class="mx-2" style="color: green;">{{(discount+"%")}}</h5>
+            <h5>{{("$"+(price-(discount/100*price)))}}</h5>
+        </div>
+        <div style="display: flex;">
+            <h5 class="mx-2">Actual Cost</h5>
+            <h5 style="text-decoration: line-through;">{{(" $"+price)}}</h5>
+        </div>
+
+        <!-- Product Category and Subcategory -->
+        <ul>
+            <li>Category: {{this.product.category}}</li>
+            <li>Subcategory: {{this.product.subCategory}}</li>
+        </ul>
+        <!-- Add more sections and details as needed -->
+
+        <!-- Buy and Add to Cart Buttons -->
+        <div class="mt-4">
+            <button type="button" class="btn btn-primary mx-1">Buy</button>
+            <button type="button" class="btn btn-success mx-1">Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+<div class="mt-4">
+    <h5>More Related Products</h5>
+    <div class="row">
+        <div class="col-md-3 mt-3" *ngFor="let product of products">
+            <app-product-item [product]="product"></app-product-item>
+        </div>
+    </div>
+</div>
+
+
+<!-- Seller Information -->
+<br>
+<h6>Seller Information</h6>
+<ul>
+    <li><b>Seller Name:</b> {{this.sellerName}} </li>
+    <li><b>Seller Category:</b> {{this.sellerCategory}} </li>
+    <li><b>Seller Address:</b> {{this.sellerAddress}} </li>
+</ul>
+
+
+<br>
+<br>
+<br>

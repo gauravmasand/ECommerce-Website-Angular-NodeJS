@@ -1,0 +1,82 @@
+<!-- ../../../assets/sample-image.jpeg -->
+
+
+<br>
+<!-- app.component.html -->
+<div class="">
+
+    <div class="col">
+        <!-- <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5>Product Filters</h5>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="col-md-12">
+
+            <!-- Carousel -->
+            <div id="carouselExampleIndicators" class="carousel slide homeMainImageSlider" style="max-height: 50%;"
+                data-ride="carousel">
+                <ol class="carousel-indicators">
+                    {{(currentDisplayedIndex+1)}}
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img [src]="'../../../assets/' + featuredImageList[currentDisplayedIndex]"
+                            style="height: 500px; object-fit: contain;" class="d-block w-100" alt="Carousel Image">
+                    </div>
+                </div>
+                <a style="text-decoration: none;" class="carousel-control-prev text-secondary" role="button"
+                    data-slide="prev" (click)="prevImage()">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a style="text-decoration: none;" class="carousel-control-next text-secondary" role="button"
+                    data-slide="next" (click)="nextImage()">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+            <!-- Categories -->
+            <div routerLink="category" class="row mt-2">
+                <div class="col-md-12">
+                    <h5>Categories</h5>
+                </div>
+            </div>
+            <div class="row">
+                <ng-container *ngFor="let item of allCategories; let i = index;">
+                    <div class="col-md-2 mt-3" style="flex: 0 0 20%;">
+                        <app-category-item [category]="item"></app-category-item>
+                    </div>
+                    <div class="w-100" *ngIf="(i + 1) % 5 === 0"></div>
+                </ng-container>
+            </div>
+
+
+            <!-- Products -->
+            <div class="row mt-2">
+                <div class="col-md-12">
+                    <h5>Products</h5>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 mt-3" *ngFor="let product of products">
+                    <app-product-item [product]="product"></app-product-item>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Additional Sections -->
+    <!-- Add more sections like deals, recommended products, testimonials, etc. -->
+
+</div>
+
+<br>
+<br>
+<br>

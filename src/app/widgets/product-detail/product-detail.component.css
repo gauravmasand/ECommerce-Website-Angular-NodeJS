@@ -1,0 +1,40 @@
+.card {
+  height: 100%;
+}
+
+.image-container {
+  flex: 0 0 auto;
+  overflow: auto;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.product-details {
+  overflow: auto;
+}
+
+/* Hide the scrollbar */
+.product-details::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+/* Track */
+.product-details::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+.product-details::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+/* Handle on hover */
+.product-details::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.product-parent product-details {
+  overflow: auto;
+  position: fixed;
+}

@@ -1,0 +1,13 @@
+<br>
+
+<ul class="nav nav-tabs">
+    <li class="nav-item" [ngClass]="{'active': currentTab ==='login'}">
+        <a class="nav-link" (click)="changeTab('login')">LOGIN</a>
+    </li>
+    <li class="nav-item" [ngClass]="{'active': currentTab ==='signup'}">
+        <a class="nav-link"(click)="changeTab('signup')">SIGNUP</a>
+    </li>
+</ul>
+
+<app-user-login *ngIf="currentTab === 'login'"></app-user-login>
+<app-user-signup *ngIf="currentTab === 'signup'"></app-user-signup>

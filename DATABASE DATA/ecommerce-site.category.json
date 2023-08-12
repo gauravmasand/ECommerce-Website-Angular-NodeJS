@@ -1,0 +1,140 @@
+[{
+  "_id": {
+    "$oid": "64a1478411acc52d493d31a5"
+  },
+  "name": "Electronics",
+  "subcategories": [
+    "Computers & Laptops",
+    "Mobile Phones & Tablets",
+    "Cameras & Photography",
+    "TV, Audio & Video",
+    "Accessories"
+  ],
+  "image": "electronics.jpg"
+},
+{
+  "_id": {
+    "$oid": "64a1478411acc52d493d31a6"
+  },
+  "name": "Fashion",
+  "subcategories": [
+    "Clothing",
+    "Shoes",
+    "Accessories",
+    "Jewelry",
+    "Bags & Luggage"
+  ],
+  "image": "fashion.jpg"
+},
+{
+  "_id": {
+    "$oid": "64a1478411acc52d493d31a7"
+  },
+  "name": "Home & Furniture",
+  "subcategories": [
+    "Kitchen & Dining",
+    "Furniture",
+    "Home Decor",
+    "Bedding & Bath",
+    "Appliances"
+  ],
+  "image": "home.jpg"
+},
+{
+  "_id": {
+    "$oid": "64a1478411acc52d493d31a8"
+  },
+  "name": "Beauty & Personal Care",
+  "subcategories": [
+    "Makeup",
+    "Skincare",
+    "Haircare",
+    "Fragrances",
+    "Personal Care Appliances"
+  ],
+  "image": "beauty.jpg"
+},
+{
+  "_id": {
+    "$oid": "64a1478411acc52d493d31a9"
+  },
+  "name": "Health & Wellness",
+  "subcategories": [
+    "Vitamins & Supplements",
+    "Fitness Equipment",
+    "Health Monitors",
+    "Personal Care Products",
+    "Sports Nutrition"
+  ],
+  "image": "health.jpg"
+},
+{
+  "_id": {
+    "$oid": "64a1478411acc52d493d31aa"
+  },
+  "name": "Books & Media",
+  "subcategories": [
+    "Books",
+    "E-books",
+    "Magazines & Newspapers",
+    "Movies & TV Shows",
+    "Music"
+  ],
+  "image": "books.webp"
+},
+{
+  "_id": {
+    "$oid": "64a1478411acc52d493d31ab"
+  },
+  "name": "Sports & Outdoors",
+  "subcategories": [
+    "Exercise & Fitness",
+    "Sports Equipment",
+    "Outdoor Recreation",
+    "Camping & Hiking",
+    "Cycling"
+  ],
+  "image": "sports.jpg"
+},
+{
+  "_id": {
+    "$oid": "64a1478411acc52d493d31ac"
+  },
+  "name": "Baby & Kids",
+  "subcategories": [
+    "Clothing & Accessories",
+    "Toys & Games",
+    "Baby Gear & Essentials",
+    "Nursery & Furniture",
+    "School Supplies"
+  ],
+  "image": "baby.jpg"
+},
+{
+  "_id": {
+    "$oid": "64a1478411acc52d493d31ad"
+  },
+  "name": "Automotive",
+  "subcategories": [
+    "Car Accessories",
+    "Motorcycle Accessories",
+    "Car Parts & Components",
+    "Tools & Equipment",
+    "Tires & Wheels"
+  ],
+  "image": "automotive.jpg"
+},
+{
+  "_id": {
+    "$oid": "64a1478411acc52d493d31ae"
+  },
+  "name": "Groceries & Food",
+  "subcategories": [
+    "Fresh Produce",
+    "Dairy & Eggs",
+    "Meat & Seafood",
+    "Beverages",
+    "Snacks & Sweets"
+  ],
+  "image": "groceries.jpg"
+}]

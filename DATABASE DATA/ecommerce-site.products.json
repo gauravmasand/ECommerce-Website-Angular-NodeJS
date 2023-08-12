@@ -1,0 +1,236 @@
+[{
+  "_id": {
+    "$oid": "64a9646c85fe1f0299417313"
+  },
+  "sellerId": "64a156866c6ff84c8c1a43ea",
+  "title": "Apple 2023 MacBook Pro Laptop M2 Pro chip with 10‑core CPU and 16‑core GPU: 33.74 cm (14.2-inch), 16GB Unified Memory, 512GB SSD Storage, Works with iPhone/iPad; Silver",
+  "desc": "\r\nBrand\tApple\r\nModel Name\tMacBook Pro\r\nScreen Size\t14 Inches\r\nColour\tSilver\r\nHard Disk Size\t1000 GB\r\nCPU Model\tUnknown\r\nRAM Memory Installed Size\t32 GB",
+  "productFeatures": "SUPERCHARGED BY M2 PRO OR M2 MAX — Take on demanding projects with the M2 Pro or M2 Max chip. M2 Pro has up to 12 CPU cores, up to 19 GPU cores and up to 32GB unified memory. M2 Max has 12 CPU cores, up to 38 GPU cores and up to 96GB unified memory.\r\nUP TO 18 HOURS OF BATTERY LIFE — Go all day thanks to the power-efficient design of the M2 Pro or M2 Max chip. And MacBook Pro delivers exceptional performance whether it’s running on battery or plugged in.\r\nFULLY COMPATIBLE — All your pro apps run lightning-fast — including Adobe Creative Cloud, Xcode, Affinity Designer, Microsoft 365, and many of your favourite iPhone and iPad apps.\r\nBEAUTIFUL PRO DISPLAY — The 14.2-inch Liquid Retina XDR display features Extreme Dynamic Range, over 1,000 nits of brightness for stunning HDR content and pro reference modes for doing your best work on the go.\r\nADVANCED CAMERA AND AUDIO — Look sharp and sound great with a 1080p FaceTime HD camera, a studio-quality three-mic array, and a six-speaker sound system with Spatial Audio.",
+  "offers": "Bank Offer\r\nUpto ₹5,000.00 discount on select Credit Cards, HDFC Bank Debit CardsUpto ₹5,000.00 discount on select Credit Cards, HDFC…\r\n\r\nNo Cost EMI\r\nUpto ₹9,006.65 EMI interest savings on Amazon Pay ICICI Bank Credit CardsUpto ₹9,006.65 EMI interest savings on Amazon Pay ICICI…",
+  "productImages": [
+    "productImages-1688822892597-388224483.jpg",
+    "productImages-1688822892597-447233714.jpg",
+    "productImages-1688822892599-390054875.jpg",
+    "productImages-1688822892600-170744089.jpg",
+    "productImages-1688822892600-694282529.jpg",
+    "productImages-1688822892601-2144766.jpg",
+    "productImages-1688822892604-831328082.jpg"
+  ],
+  "discount": "1",
+  "actualCost": "2000",
+  "category": "Electronics",
+  "subCategory": "Computers & Laptops",
+  "stock": "51",
+  "deleted": false,
+  "date": {
+    "$date": "2023-07-08T13:28:12.614Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64abbc389d837ed1a06e35ea"
+  },
+  "sellerId": "64a156866c6ff84c8c1a43ea",
+  "title": "Dell Vostro 3420 Laptop, Intel i3-1115G4/8GB DDR4/256GB SSD/Windows 11+MSO'21/14.0\" (35.56cm) FHD, TÜV Rheinland Certified Comfortview Reduce Harmful Blue Light Emission/15 Month McAfee/Black/1.48kg",
+  "desc": "Brand\tDell\r\nModel Name\tVostro\r\nScreen Size\t14 Inches\r\nColour\tCarbon black\r\nHard Disk Size\t256 GB\r\nCPU Model\tCore i3",
+  "productFeatures": "Processor: Intel Core i3-1115G4 11th Generation (up to 4.10 GHz) 2 Cores, 6MB Cache // RAM & Storage: 8GB, 8Gx1, DDR4, 3200MHz_2666MHz Ach, (2 DIMM Slots, Expandable upto 16GB) & 256GB SSD\r\nSoftware: Win 11 Home + Office H&S 2021, 15 Months McAfee antivirus subscription\r\nGraphics & Keyboard: Integrated Onboard Graphics & Standard Keyboard // Display: 14.0\" FHD WVA AG Narrow Border 250 nits\r\nPorts: 2 USB 3.2 Gen 1 ports, 1 USB 2.0 port, 1 Headset jack, 1 HDMI 1.4 port*,1 Flip-Down RJ-45 port 10/100/1000 Mbps, 1 SD 3.0 card slot\r\nFeatures- TÜV Rheinland certified Dell ComfortView to reduce Harmful blue light: 15 Months McAfee antivirus subscription: Waves Maxx Audio tuned speakers and microphones optimize audio: Hardware-based TPM 2.0 security chip",
+  "offers": "No Cost EMI\r\nUpto ₹2,286.56 EMI interest savings on select Credit CardsUpto ₹2,286.56 EMI interest savings on select Credit Cards",
+  "productImages": [
+    "productImages-1688976440726-816036238.jpg",
+    "productImages-1688976440727-135803891.jpg",
+    "productImages-1688976440729-224746441.jpg"
+  ],
+  "discount": "10",
+  "actualCost": "500",
+  "category": "Electronics",
+  "subCategory": "Computers & Laptops",
+  "stock": "50",
+  "deleted": false,
+  "date": {
+    "$date": "2023-07-10T08:07:20.735Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64abbce59d837ed1a06e35f7"
+  },
+  "sellerId": "64a156866c6ff84c8c1a43ea",
+  "title": "Dell 14, Intel 12th Gen i5-1235U Laptop/8GB/512GB SSD/14.0\" (35.56cm) FHD TÜV Rheinland Certified Comfortview to Reduce Harmful Blue Light Emission/Windows 11 + MSO'21/Black/15 Month McAfee,1.48kg",
+  "desc": "Processor: Intel Core i5-1235U 12th Generation (up to 4.40 GHz, 12MB 10 Cores) // RAM & Storage: 8 GB, 1 x 8 GB, DDR4, 2666 MHz, (2 DIMM Slots, Expandable upto 16GB) & 512GB SSDland certified Dell ComfortView to reduce Harmful blue light: 15 Months McAfee antivirus subscription: Waves Maxx Audio tuned speakers and microphones optimize audio: Hardware-based TPM 2.0 security chip\r\n",
+  "productFeatures": "Brand\tDell\r\nModel Name\tVostro 3420\r\nScreen Size\t14 Inches\r\nColour\tBlack\r\nHard Disk Size\t512 GB\r\nCPU Model\tCore i5\r\nRAM Memory Installed Size\t8 GB",
+  "offers": "No Cost EMI\r\nUpto ₹4,869.80 EMI interest savings on select Credit CardsUpto ₹4,869.80 EMI interest savings on select Credit Cards",
+  "productImages": [
+    "productImages-1688976613874-955828540.jpg",
+    "productImages-1688976613875-893767734.jpg",
+    "productImages-1688976613875-909223196.jpg"
+  ],
+  "discount": "25",
+  "actualCost": "750",
+  "category": "Electronics",
+  "subCategory": "Computers & Laptops",
+  "stock": "56",
+  "deleted": false,
+  "date": {
+    "$date": "2023-07-10T08:10:13.879Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64abbd439d837ed1a06e35fd"
+  },
+  "sellerId": "64a156866c6ff84c8c1a43ea",
+  "title": "HP Laptop 15s, Intel Celeron N4500, 15.6 inch(39.6cm) HD Laptop (8GB RAM,512GB SSD,Intel UHD Graphics,Dual Speakers,Numeric Keypad,Alexa,Win 11,MSO 21,Natural Silver,1.69 Kgs) 15s-fq3071TU",
+  "desc": "Processor: Intel Celeron N4500(up to 2.8 GHz burst frequency(2c),4 MB L3 cache, 2 cores, 2 threads)|Memory: 8 GB DDR4-2933 MHz RAM (1 x 8 GB)|Storage: 512 GB PCIe NVMe TLC M.2 SSD\r\n",
+  "productFeatures": "Operating System & Preinstalled Software: Windows 11 Home 64 Single Language – HP recommends Windows 11 Pro for business |Microsoft Office Home & Student 2021\r\nDisplay & Graphics: 39.6 cm (15.6\") diagonal, HD, micro-edge, BrightView,Brightness: 250 nits, 101 ppi Color Gamut: 45%NTSC,Screen Resolution: 1366 x 768|Graphics: Intel UHD Graphics\r\nPorts:1 USB Type-C 5Gbps signaling rate, 2 USB Type-A 5Gbps signaling rate 1 headphone/microphone combo 1 AC smart pin, 1 HDMI 1.4b| Battery: 3-cell, 41 Wh Li-ion, Support battery fast charge\r\nOther Features: HP True Vision 720p HD camera with temporal noise reduction and integrated dual array digital microphones|Networking: Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi and Bluetooth 5 combo MU-MIMO supported|Keyboard & Pointing Device: Full-size, natural silver keyboard with numeric keypad HP Imagepad with multi-touch gesture support",
+  "offers": "No Cost EMI\r\nUpto ₹1,372.91 EMI interest savings on Amazon Pay ICICI Bank Credit CardsUpto ₹1,372.91 EMI interest savings on Amazon Pay",
+  "productImages": [
+    "productImages-1688976707356-854959111.jpg",
+    "productImages-1688976707357-711844029.jpg",
+    "productImages-1688976707359-994038889.jpg",
+    "productImages-1688976707359-650812022.jpg"
+  ],
+  "discount": "23",
+  "actualCost": "400",
+  "category": "Electronics",
+  "subCategory": "Computers & Laptops",
+  "stock": "54",
+  "deleted": false,
+  "date": {
+    "$date": "2023-07-10T08:11:47.362Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64abbe069d837ed1a06e3620"
+  },
+  "sellerId": "64a156866c6ff84c8c1a43ea",
+  "title": "Xiaomi Notebook Ultra Max 11th Gen Intel Core i5-11320H Thin & Light (16GB/512GB SSD/Iris Xe Graphics/15.6\" 3.2K Resolution/Win 11/Thunderbolt 4/MS Office '21/Fingerprint Sensor/1.7 Kg)",
+  "desc": "Processor: 11th Gen Intel Tiger Lake Core i5-11320H processor| Speed: 3.1 GHz(base) - 4.4 GHz(max) | 4 cores | 8 Threads | 8 MB Cache\r\n",
+  "productFeatures": "Display: 39.62 centimeters IPS 3.2K resolution (3200x2000)| 300 nits brightness | 16:10 aspect ratio, 100% sRGB, 90Hz refresh rate, 241 PPI, 1500:1 contrast ratio | Anti glare | TUV Low blue light\r\nMemory & Storage: 16GB DDR4 3200 MHz | 512GB PCIe NVMe M.2 SSD\r\nOperating System & Software: Windows 11 Home | Microsoft Office Home and Student 2021\r\nGraphics: Intel Iris Xe graphics",
+  "offers": "No Cost EMI\r\nUpto ₹2,206.36 EMI interest savings on Amazon Pay ICICI Bank Credit CardsUpto ₹2,206.36 EMI interest savings on Amazon Pay",
+  "productImages": [
+    "productImages-1688976902399-774202898.jpg",
+    "productImages-1688976902400-138704808.jpg",
+    "productImages-1688976902400-448353600.jpg",
+    "productImages-1688976902401-993506632.jpg"
+  ],
+  "discount": "14",
+  "actualCost": "700",
+  "category": "Electronics",
+  "subCategory": "Computers & Laptops",
+  "stock": "85",
+  "deleted": false,
+  "date": {
+    "$date": "2023-07-10T08:15:02.403Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64abd3d49d837ed1a06e3628"
+  },
+  "sellerId": "64a156866c6ff84c8c1a43ea",
+  "title": "ANMESC Laptop, 15.6\" 1080P Full HD Display High Performance Quad-Core Intel Celeron N5095 Processors 12GB DDR4 512GB SSD Windows 11 Laptop Computers, 2.4G/5G WiFi, Bluetooth 4.2, Long Battery Life",
+  "desc": "🚀【HIGH PERFORMANCE LAPTOP】ANMESC 15.6 inch laptop uses powerful Intel Celeron N5095 processor, frequency up to 2.9GHz, no latency, and powerful and faster than normal processors on the basic frequency. Equipped with the latest pre-installed Windows 11 system which is far more safer and faster than previous Windows systems. The perfect combination of performance, power consumption, and helps your device run smoothly and reliably to handle all your tasks.\r\n",
+  "productFeatures": "🚩【LARGE SORAGE SAPCE COMPUTER】ANMESC Laptop is equipped with 12GB DDR4 and 512GB high-speed SSD which lets you use it without a problem even with multi programs open. Provides huge space for efficient operation of the most complex application and multimedia. An expandable TF card slot supports maximum 512GB TF card expansion and extensive interfaces such as HDMI, 2xUSB 3.0, USB Type-C, etc. Ensures you of an enough space to create and store more of your world.\r\n💻【15.6\" BIG SCREEN NEWEST LAPTOP】ANMESC 15.6 inch laptops with 1920*1080 high resolution screen provides you with a sharp and clear text and images. The 16:9 ratio expands the vertical space of the screen, showing more content, providing a comfortable visual experience and greater efficiency when browsing web pages or documents.\r\n👜【CONVENIENT AND PORTABLE DESIGN】ANMESC laptops are designed with an ultra-thin case ensures of a stylish and innovative look, and excellent portability. 2cm slim body, 1.83KG lightweight. What’s more, this business and home laptop features an advanced 38000WH rechargeable battery life of up to 8 hours. It is very convenient and portable for business trip or traveling. Suitable for daily work and play, it is the first choice for business, offices or students\r\n💯【365 DAYS LIMITED WARRANTY】ANMESC has strict standard for all stages of production to ensure the quality of our 2023 new laptops. All laptop computers are subjected to 200 hours of machine aging tests before shipment to make sure each frame is working flawlessly. We offer ONE-year limited warranty. Any questions about our ANMESC laptops, please contact us for an easy solution or a fast replacement!",
+  "offers": "No Cost EMI\r\nUpto ₹1,372.91 EMI interest savings on Amazon Pay ICICI Bank Credit CardsUpto ₹1,372.91 EMI interest savings on Amazon Pay ",
+  "productImages": [
+    "productImages-1688982484646-250319934.jpg",
+    "productImages-1688982484646-122883395.jpg",
+    "productImages-1688982484648-398994353.jpg",
+    "productImages-1688982484648-714376069.jpg"
+  ],
+  "discount": "5",
+  "actualCost": "1099",
+  "category": "Electronics",
+  "subCategory": "Computers & Laptops",
+  "stock": "45",
+  "deleted": false,
+  "date": {
+    "$date": "2023-07-10T09:48:04.650Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64abd4469d837ed1a06e362e"
+  },
+  "sellerId": "64a156866c6ff84c8c1a43ea",
+  "title": "HP Pavillion 15.6 HD Newest Laptop Computer for Business and Student, 16GB RAM, 1TB SSD, Intel Quad-Core Pentium N5000, Ethernet, WiFi, Webcam, Fast Charge, HDMI, Win 10 Home, w/GM Accessories, Red",
+  "desc": "\r\nBrand\tHP\r\nModel Name\tHP\r\nScreen Size\t15.6 Inches\r\nColor\tRed\r\nHard Disk Size\t1 TB\r\nCPU Model\tPentium N5000\r\nRam Memory Installed Size\t16 GB\r\nOperating System\tWindows 10 S\r\nGraphics Card Description\tIntegrated\r\nGraphics Coprocessor\tIntel UHD Graphics 605\r\n",
+  "productFeatures": "15.6 HD Micro-edge display】With virtually no bezel encircling the display, an ultra-wide viewing experience provides for seamless multi-monitor set-ups. Enjoy your entertainment with the great quality and highdefinition detail of 1 million pixels.\r\n【Quad-core Intel Pentium Silver N5000】The perfect combination of performance, power consumption, and value helps your device run smoothly. 1.1 GHz base frequency, up to 2.7 GHz burst frequency, 4 MB cache.\r\n【Upgraded to 16GB DDR4 RAM】Substantial high-bandwidth RAM to smoothly run your games and photo- and video-editing applications, as well as multiple programs and browser tabs all at once.\r\n【Upgraded to 1TB SSD】Provides massive storage space for huge files, so that you can store important digital data and work your way through it with ease. It gives you enormous space to save all of your files.\r\n【Windows 10 Home in S mode】You may switch to regular windows 10: Press \"Start button\" bottom left of the screen; Select \"Settings\" icon above \"power\" icon;Select Update & Security and Activation, then Go to Store; Select \"Get\" option under \"Switch out of S mode\"; Hit Install. (If you also see an \"Upgrade your edition of Windows\" section, be careful not to click the \"Go to the Store\" link that appears there.)",
+  "offers": "No Cost EMI\r\nUpto ₹1,372.91 EMI interest savings on Amazon Pay ICICI Bank Credit CardsUpto ₹1,372.91 EMI interest savings on Amazon Pay ",
+  "productImages": [
+    "productImages-1688982598054-277098726.jpg",
+    "productImages-1688982598055-269087518.jpg",
+    "productImages-1688982598055-983403680.jpg",
+    "productImages-1688982598056-329476585.jpg",
+    "productImages-1688982598057-795192884.jpg"
+  ],
+  "discount": "55",
+  "actualCost": "1000",
+  "category": "Electronics",
+  "subCategory": "Computers & Laptops",
+  "stock": "989",
+  "deleted": false,
+  "date": {
+    "$date": "2023-07-10T09:49:58.060Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64abd49e9d837ed1a06e3637"
+  },
+  "sellerId": "64a156866c6ff84c8c1a43ea",
+  "title": " Brand\tHP Model Name\tHP Screen Size\t15.6 Inches Color\tRed Hard Disk Size\t1 TB CPU Model\tPentium N5000 Ram Memory Installed Size\t16 GB Operating System\tWindows 10 S Graphics Card Description\tIntegrated Graphics Coprocessor\tIntel UHD Graphics 605",
+  "desc": "\r\nBrand\tAcer\r\nModel Name\tA315-24P-R7VH\r\nScreen Size\t15.6 Inches\r\nColor\tSilver\r\nHard Disk Size\t128 GB\r\nCPU Model\tRyzen 3\r\nRam Memory Installed Size\t8 GB\r\nOperating System\tWindows 11 S\r\nGraphics Card Description\tIntegrated\r\nGraphics Coprocessor\tAMD Radeon Graphics\r\n",
+  "productFeatures": "Purposeful Design: Travel with ease and look great doing it with the Aspire's 3 thin, light design.\r\nReady-to-Go Performance: The Aspire 3 is ready-to-go with the latest AMD Ryzen 3 7320U Processor with Radeon Graphics—ideal for the entire family, with performance and productivity at the core.\r\nVisibly Stunning: Experience sharp details and crisp colors on the 15.6\" Full HD IPS display with 16:9 aspect ratio and narrow bezels.\r\nInternal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media\r\nThe HD front-facing camera uses Acer’s TNR (Temporal Noise Reduction) technology for high-quality imagery in low-light conditions. Acer PurifiedVoice technology with AI Noise Reduction filters out any extra sound for clear communication over online meetings.\r\nWireless Wi-Fi 6 Convenience: Maintain a strong, consistent wireless signal with Wi-Fi 6 (aka 802.11ax) and 2x2 MU-MIMO technology.\r\nImproved Thermals: With a 78% increase in fan surface area, enjoy an improved thermal system and an additional 17% thermal capacity. Allowing for longer, more efficient work sessions while not plugged in.",
+  "offers": "No Cost EMI\r\nUpto ₹1,372.91 EMI interest savings on Amazon Pay ICICI Bank Credit CardsUpto ₹1,372.91 EMI interest savings on Amazon Pay ",
+  "productImages": [
+    "productImages-1688982686948-176486337.jpg",
+    "productImages-1688982686949-665424740.jpg",
+    "productImages-1688982686949-621924054.jpg",
+    "productImages-1688982686950-716170133.jpg",
+    "productImages-1688982686950-942474705.jpg",
+    "productImages-1688982686951-305895213.jpg"
+  ],
+  "discount": "30",
+  "actualCost": "500",
+  "category": "Electronics",
+  "subCategory": "Computers & Laptops",
+  "stock": "788",
+  "deleted": false,
+  "date": {
+    "$date": "2023-07-10T09:51:26.953Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c25125d1568ae83762f8db"
+  },
+  "sellerId": "64a156866c6ff84c8c1a43eb",
+  "title": "EYEBOGLER Men's Striped Regular fit T-Shirt (T285HS_White Darknavy Indigo Royal S) EYEBOGLERMenRegularT-Shirt",
+  "desc": "Raglan sleeves for a sporty look\r\nFamously durable beefy-t fabric",
+  "productFeatures": "Care Instructions: Machine Wash\r\nFit Type: Regular Fit\r\nMoisture wicking fabric is quick-drying, ultra-soft & has a soft feel, keeping you comfortable through any athletic activity.\r\nDesigned for a comfortable experience. Crew-neck provides a nonrestrictive fit; short-sleeve allows for a wider range of motion\r\nPerfect for running, workout and training sports and even as an moisture wicking undershirt.\r\n",
+  "offers": "NO OFFER",
+  "productImages": [
+    "productImages-1690456357428-428862747.jpg",
+    "productImages-1690456357428-264256155.jpg"
+  ],
+  "discount": "50",
+  "actualCost": "10",
+  "category": "Fashion",
+  "subCategory": "Clothing",
+  "stock": "100",
+  "deleted": false,
+  "date": {
+    "$date": "2023-07-27T11:12:37.436Z"
+  },
+  "__v": 0
+}]

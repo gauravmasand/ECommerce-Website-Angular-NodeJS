@@ -1,0 +1,57 @@
+<div *ngIf="orderStatus=='success'" class="alert alert-success alert-dismissible fade show" role="alert">
+  <strong>Success!</strong> {{ order_message }}
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+<div *ngIf="orderStatus=='failed'" class="alert alert-danger alert-dismissible fade show" role="alert">
+  <strong>Error!</strong> Failed to place your order. Please try again.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+<div *ngIf="orderStatus==''" class="floating-checkout">
+  <div class="address-section">
+    <h6 class="mb-3">Delivery Address</h6>
+    <p class="mb-4">{{ address }}</p>
+  </div>
+  <div class="payment-section">
+    <h6 class="mb-3">Payment Options</h6>
+    <div class="form-check mb-3">
+      <input disabled class="form-check-input" type="radio" name="paymentOption" id="upi" value="upi"
+        [(ngModel)]="selectedPaymentOption">
+      <label class="form-check-label" for="upi">UPI</label>
+      <div class="form-group mt-2" *ngIf="selectedPaymentOption === 'upi'">
+        <label for="upiId">UPI ID</label>
+        <input type="text" class="form-control" id="upiId" placeholder="Enter UPI ID" [(ngModel)]="upiId">
+      </div>
+    </div>
+    <div class="form-check mb-3">
+      <input disabled class="form-check-input" type="radio" name="paymentOption" id="card" value="card"
+        [(ngModel)]="selectedPaymentOption">
+      <label class="form-check-label" for="card">Card</label>
+      <div class="form-group mt-2" *ngIf="selectedPaymentOption === 'card'">
+        <label for="cardNumber">Card Number</label>
+        <input type="text" class="form-control" id="cardNumber" placeholder="Enter Card Number"
+          [(ngModel)]="cardNumber">
+      </div>
+    </div>
+    <div class="form-check mb-3">
+      <input disabled class="form-check-input" type="radio" name="paymentOption" id="netbanking" value="netbanking"
+        [(ngModel)]="selectedPaymentOption">
+      <label class="form-check-label" for="netbanking">Net Banking</label>
+      <div class="form-group mt-2" *ngIf="selectedPaymentOption === 'netbanking'">
+        <label for="bank">Select Bank</label>
+        <select class="form-control" id="bank" [(ngModel)]="bank">
+          <option value="bank1">Bank 1</option>
+          <option value="bank2">Bank 2</option>
+          <option value="bank3">Bank 3</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="paymentOption" id="cod" value="cod"
+        [(ngModel)]="selectedPaymentOption">
+      <label class="form-check-label" for="cod">Cash on Delivery</label>
+    </div>
+    <button class="btn btn-primary mt-4" (click)="placeOrder()">Place Order</button>
+  </div>
+</div>

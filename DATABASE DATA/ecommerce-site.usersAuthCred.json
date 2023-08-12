@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "649c075f2c2e93e84197467e"
+  },
+  "name": "Gaurav Sanjay Masand",
+  "email": "user1@mail.com",
+  "password": "12345678",
+  "town": "AMRAVATI",
+  "city": "AMRAVATI",
+  "state": "Maharashtra",
+  "country": "India",
+  "date": {
+    "$date": "2023-06-28T10:11:43.806Z"
+  },
+  "__v": 0
+}]

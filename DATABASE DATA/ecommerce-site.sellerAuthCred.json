@@ -1,0 +1,240 @@
+[{
+  "_id": {
+    "$oid": "64a156866c6ff84c8c1a43ea"
+  },
+  "name": "Gaurav Sanjay Masand",
+  "phone": "1234567890",
+  "email": "gaurav@example.com",
+  "password": "12345678",
+  "town": "AMRAVATI",
+  "city": "AMRAVATI",
+  "state": "Maharashtra",
+  "country": "India",
+  "bankName": "bank name",
+  "accountNumber": "121212",
+  "IFSC": "ifsc code",
+  "swiftCode": "swift code",
+  "category": "Electronics",
+  "subCategory": "Computers & Laptops",
+  "idProof": "idProof-1688295046909-110863621.jpg",
+  "date": {
+    "$date": "2023-07-02T10:50:46.919Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a156866c6ff84c8c1a43eb"
+  },
+  "name": "John Doe",
+  "phone": "1234567890",
+  "email": "john@example.com",
+  "password": "password123",
+  "town": "New York",
+  "city": "New York City",
+  "state": "New York",
+  "country": "United States",
+  "bankName": "Bank of America",
+  "accountNumber": "9876543210",
+  "IFSC": "BOFAUS3N",
+  "swiftCode": "BOFAUS3NXXX",
+  "category": "Fashion",
+  "subCategory": "Clothing",
+  "idProof": "idProof-1234567890.jpg",
+  "date": {
+    "$date": "2023-07-02T10:50:46.919Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a156866c6ff84c8c1a43ec"
+  },
+  "name": "Emma Smith",
+  "phone": "9876543210",
+  "email": "emma@example.com",
+  "password": "pass123",
+  "town": "London",
+  "city": "London",
+  "state": "England",
+  "country": "United Kingdom",
+  "bankName": "Barclays",
+  "accountNumber": "4567890123",
+  "IFSC": "BARCGB22",
+  "swiftCode": "BARCGB22XXX",
+  "category": "Home & Furniture",
+  "subCategory": "Kitchen & Dining",
+  "idProof": "idProof-9876543210.jpg",
+  "date": {
+    "$date": "2023-07-02T10:50:46.919Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a156866c6ff84c8c1a43ed"
+  },
+  "name": "Luis Hernandez",
+  "phone": "555-123-4567",
+  "email": "luis@example.com",
+  "password": "securepass",
+  "town": "Madrid",
+  "city": "Madrid",
+  "state": "Madrid",
+  "country": "Spain",
+  "bankName": "Santander",
+  "accountNumber": "7890123456",
+  "IFSC": "BSCHESMM",
+  "swiftCode": "BSCHESMMXXX",
+  "category": "Beauty & Personal Care",
+  "subCategory": "Makeup",
+  "idProof": "idProof-555-123-4567.jpg",
+  "date": {
+    "$date": "2023-07-02T10:50:46.919Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a156866c6ff84c8c1a43ee"
+  },
+  "name": "Sarah Johnson",
+  "phone": "9876543210",
+  "email": "sarah@example.com",
+  "password": "password456",
+  "town": "Los Angeles",
+  "city": "Los Angeles",
+  "state": "California",
+  "country": "United States",
+  "bankName": "Wells Fargo",
+  "accountNumber": "9876543210",
+  "IFSC": "WFBIUS6S",
+  "swiftCode": "WFBIUS6SXXX",
+  "category": "Health & Wellness",
+  "subCategory": "Vitamins & Supplements",
+  "idProof": "idProof-9876543210.jpg",
+  "date": {
+    "$date": "2023-07-02T10:50:46.919Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a156866c6ff84c8c1a43ef"
+  },
+  "name": "Michael Lee",
+  "phone": "555-987-6543",
+  "email": "michael@example.com",
+  "password": "pass321",
+  "town": "Sydney",
+  "city": "Sydney",
+  "state": "New South Wales",
+  "country": "Australia",
+  "bankName": "Commonwealth Bank",
+  "accountNumber": "1234567890",
+  "IFSC": "CTBAAU2S",
+  "swiftCode": "CTBAAU2SXXX",
+  "category": "Books & Media",
+  "subCategory": "Books",
+  "idProof": "idProof-555-987-6543.jpg",
+  "date": {
+    "$date": "2023-07-02T10:50:46.919Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a156866c6ff84c8c1a43f0"
+  },
+  "name": "Michelle Johnson",
+  "phone": "123-456-7890",
+  "email": "michelle@example.com",
+  "password": "mypassword",
+  "town": "Toronto",
+  "city": "Toronto",
+  "state": "Ontario",
+  "country": "Canada",
+  "bankName": "TD Bank",
+  "accountNumber": "6543210987",
+  "IFSC": "TDOMCATT",
+  "swiftCode": "TDOMCATTXXX",
+  "category": "Sports & Outdoors",
+  "subCategory": "Exercise & Fitness",
+  "idProof": "idProof-123-456-7890.jpg",
+  "date": {
+    "$date": "2023-07-02T10:50:46.919Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a156866c6ff84c8c1a43f1"
+  },
+  "name": "Emily Wilson",
+  "phone": "555-123-7890",
+  "email": "emily@example.com",
+  "password": "pass789",
+  "town": "Paris",
+  "city": "Paris",
+  "state": "Île-de-France",
+  "country": "France",
+  "bankName": "BNP Paribas",
+  "accountNumber": "9876543210",
+  "IFSC": "BNPAGB22",
+  "swiftCode": "BNPAGB22XXX",
+  "category": "Baby & Kids",
+  "subCategory": "Toys & Games",
+  "idProof": "idProof-555-123-7890.jpg",
+  "date": {
+    "$date": "2023-07-02T10:50:46.919Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a156866c6ff84c8c1a43f2"
+  },
+  "name": "David Rodriguez",
+  "phone": "123-789-4560",
+  "email": "david@example.com",
+  "password": "davidpass",
+  "town": "Mexico City",
+  "city": "Mexico City",
+  "state": "Mexico City",
+  "country": "Mexico",
+  "bankName": "BBVA Bancomer",
+  "accountNumber": "4560123456",
+  "IFSC": "BCMRMXMM",
+  "swiftCode": "BCMRMXMMXXX",
+  "category": "Automotive",
+  "subCategory": "Car Accessories",
+  "idProof": "idProof-123-789-4560.jpg",
+  "date": {
+    "$date": "2023-07-02T10:50:46.919Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64a156866c6ff84c8c1a43f3"
+  },
+  "name": "Sophia Chen",
+  "phone": "987-654-3210",
+  "email": "sophia@example.com",
+  "password": "sophiapass",
+  "town": "Beijing",
+  "city": "Beijing",
+  "state": "Beijing",
+  "country": "China",
+  "bankName": "Industrial and Commercial Bank of China",
+  "accountNumber": "6543210987",
+  "IFSC": "ICBKCNBJ",
+  "swiftCode": "ICBKCNBJXXX",
+  "category": "Groceries & Food",
+  "subCategory": "Fresh Produce",
+  "idProof": "idProof-987-654-3210.jpg",
+  "date": {
+    "$date": "2023-07-02T10:50:46.919Z"
+  },
+  "__v": 0
+}]

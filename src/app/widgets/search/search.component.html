@@ -1,0 +1,80 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="sidebar">
+                <h5>Filters</h5>
+            </div>
+
+            <!-- discount-slider.component.html -->
+            <h6>Select Minimum Discount</h6>
+            <div class="discount-slider" style="display: flex; flex-direction: column;">
+                <input type="range" class="form-range" min="0" max="100" [(ngModel)]="minDiscountPercentage"
+                    name="minDiscountPercentage`">
+                <span>Minimum Discount: {{ minDiscountPercentage }}%</span>
+            </div>
+
+            <!-- divider.component.html -->
+            <div class="divider"></div>
+
+            <!-- Filter by Price Range -->
+            <div class="filter-section">
+                <h6>Price Range</h6>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="minPrice">Min Price:</label>
+                            <input type="number" class="form-control" id="minPrice" [(ngModel)]="minPrice"
+                                name="minPrice" placeholder="50">
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="form-group">
+                            <label for="maxPrice">Max Price:</label>
+                            <input type="number" class="form-control" id="maxPrice" [(ngModel)]="maxPrice"
+                                name="maxPrice" placeholder="5000">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- divider.component.html -->
+            <div class="divider"></div>
+
+            <!-- Filter by Category -->
+            <h6>Categories</h6>
+            <ul class="list-group">
+                <li class="list-group-item" *ngFor="let category of allCategories"
+                    [class.active]="selectedCategory === category" (click)="selectedCategory = category">
+                    <span>{{ category.name }}</span>
+                    <ul class="list-group subcategories mt-2" *ngIf="selectedCategory === category">
+                        <li class="list-group-item subcategory" *ngFor="let subcategory of category.subcategories"
+                            [class.active]="selectedSubcategory === subcategory"
+                            (click)="selectedSubcategory = subcategory">
+                            <span>{{ subcategory }}</span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <br>
+            <div class="text-center conatiner">
+                <button class="btn btn-sm btn-primary center" (click)="fetchSearch()">Apply</button>
+            </div>
+            <br>
+
+        </div>
+        <div class="col-md-8">
+            <h5>Product Search Results</h5>
+            <div *ngIf="searchStatus == ''" class="product-list row">
+                <div class="col-md-4 mt-3" *ngFor="let item of products">
+                    <app-product-item [product]="item"></app-product-item>
+                </div>
+            </div>
+            <div *ngIf="searchStatus == 'nofound'" class="product-list row">
+                <div class="alert alert-warning mt-3" role="alert">
+                    No Results Found.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

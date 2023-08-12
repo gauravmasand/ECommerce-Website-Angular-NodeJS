@@ -1,0 +1,30 @@
+<div class="card">
+    <div class="image-container" routerLink="/product/{{product._id}}">
+        <img src="{{ image_path }}{{ product.productImages[0] }}" class="card-img-top" alt="Product image">
+    </div>
+    <div class="card-body">
+        <h6 style="-webkit-box-orient: vertical;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-line-clamp: 1;" class="card-title" routerLink="/product/{{product._id}}">{{product.title}}</h6>
+        <p style="-webkit-box-orient: vertical;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-line-clamp: 2; margin-bottom: 5px;" class="card-text" routerLink="/product/{{product._id}}">{{product.desc}}</p>
+        <div class="price-section" style="margin-bottom: 0;">
+            <div style="display: flex;">
+                <h6 class="mx-2" style="color: green;">{{(product.discount + "%")}}</h6>
+                <b>{{("$"+(price-(discount/100*price)))}}</b>
+            </div>
+            <small style="display: flex;">
+                <p class="mx-2" style="margin-bottom: 5px;">Actual Cost </p>
+                <p style="text-decoration: line-through; margin-bottom: 5px;">{{("$" + product.actualCost)}}</p>
+            </small>
+        </div>
+        <div style="display: flex;"></div>
+        <a (click)="checkOutProduct()" class="btn btn-primary btn-sm mx-1">Buy</a>
+        <a (click)="addToCart()" class="btn btn-success btn-sm mx-1">Add to Cart</a>
+    </div>
+</div>

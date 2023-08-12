@@ -1,0 +1,46 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Orders</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Customer Information</th>
+            <th>Product Details</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let order of orders; index as i">
+            <td class="col-md-5">
+              <p><strong>Name:</strong> {{ order.customerName }}</p>
+              <p><strong>Address:</strong> {{ order.customerAddress }}</p>
+              <p><strong>Email:</strong> {{ order.customerEmail }}</p>
+            </td>
+            <td class="col-md-5">
+              <img src="{{image_path}}{{order.productImageName}}" alt="Product Image" width="100" class="my-1">
+              <p class="product-title">{{ order.productTitle }}</p>
+
+              <p><strong>Product ID:</strong> {{ order.productId }}</p>
+              <p><strong>Selling Cost:</strong> ${{ sellingCostList[i] }}</p>
+              <p><strong>Actual Cost:</strong> <del>${{ order.actualCost }}</del></p>
+              <p style="color: green;"><strong>Discount:</strong> {{ order.discount }}%</p>
+            </td>
+            <td class="col-md-2">
+              <div *ngIf="!orders[i].markAsSent && !orders[i].sellerCanceled">
+                <button class="btn btn-primary my-1 btn-sm" (click)="markAsSent(order)">Mark as Sent</button>
+                <br>
+                <button class="btn btn-danger my-1 btn-sm" (click)="cancelOrder(order)">Cancel Order</button>
+              </div>
+              <p *ngIf="orders[i].sellerCanceled"><strong>You have cancled the order</strong></p>
+              <p *ngIf="orders[i].markAsSent"><strong><div *ngIf="!orders[i].sellerCanceled">Order is Completed</div></strong></p>
+            </td>
+
+          </tr>
+
+          <!-- Add more order rows as needed -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

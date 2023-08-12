@@ -1,0 +1,66 @@
+<div *ngIf="this.loginStatsus == 'attempting' || this.loginStatsus == 'failed'">
+
+    <div *ngIf="this.loginStatsus == 'failed'">
+        <div class="alert alert-danger" role="alert">
+            Signup failed. Please check your credentials and try again.
+        </div>
+    </div>
+
+    <div *ngIf="this.serverError != ''">
+        <div class="alert alert-danger" role="alert">
+            {{this.serverError}}
+        </div>
+    </div>
+
+    <h4 class="my-3">User Signup</h4>
+    <form #sellerSignup="ngForm" (ngSubmit)="userSignup()">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" name="name" [(ngModel)]="this.name" class="form-control" id="name"
+                aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" name="email" [(ngModel)]="this.email" class="form-control" id="exampleInputEmail1"
+                aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" name="password" [(ngModel)]="this.password" class="form-control"
+                id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+            <label for="town" class="form-label">Town</label>
+            <input type="text" name="town" [(ngModel)]="this.town" class="form-control" id="town">
+        </div>
+        <div class="mb-3">
+            <label for="city" class="form-label">City</label>
+            <input type="text" name="city" [(ngModel)]="this.city" class="form-control" id="city">
+        </div>
+        <div class="mb-3">
+            <label for="state" class="form-label">State</label>
+            <input type="text" name="state" [(ngModel)]="this.state" class="form-control" id="state">
+        </div>
+        <div class="mb-3">
+            <label for="country" class="form-label">Country</label>
+            <input type="text" name="country" [(ngModel)]="this.country" class="form-control" id="country">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">I agree to all terms and conditions</label>
+        </div>
+        <button type="submit" class="btn btn-primary">SIGNUP</button>
+    </form>
+
+</div>
+
+<div *ngIf="this.loginStatsus == 'success'">
+    <div class="alert alert-success" role="alert">
+        Signup successful!
+    </div>
+
+</div>
+<br>
+<br>
+<br>

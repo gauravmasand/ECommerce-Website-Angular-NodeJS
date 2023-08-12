@@ -1,0 +1,26 @@
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="sidebar">
+                <h4>Seller Menu</h4>
+                <ul class="list-group">
+                    <!-- <a style="cursor: pointer" (click)="changeTab('profile')" class="list-group-item" [ngClass]="{ 'active': currentTab === 'profile' }">Profile</a> -->
+                    <a style="cursor: pointer" (click)="changeTab('dashboard')" class="list-group-item" [ngClass]="{ 'active': currentTab === 'dashboard' }">Dashboard</a>
+                    <a style="cursor: pointer" (click)="changeTab('add-product')" class="list-group-item" [ngClass]="{ 'active': currentTab === 'add-product' }">Add Product</a>
+                    <a style="cursor: pointer" (click)="changeTab('manage-products')" class="list-group-item" [ngClass]="{ 'active': currentTab === 'manage-products' }">Manage Products</a>
+                    <a style="cursor: pointer" (click)="changeTab('orders')" class="list-group-item" [ngClass]="{ 'active': currentTab === 'orders' }">Orders</a>
+                    <a style="cursor: pointer" (click)="changeTab('settings')" class="list-group-item" [ngClass]="{ 'active': currentTab === 'settings' }">Settings</a>
+                  </ul>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <!-- <app-seller-profile *ngIf="this.currentTab == 'profile'"></app-seller-profile> -->
+            <app-seller-dashboard *ngIf="this.currentTab == 'dashboard'"></app-seller-dashboard>
+            <app-seller-add-products *ngIf="this.currentTab == 'add-product'"></app-seller-add-products>
+            <app-seller-manage-products (dataEvent)="receiveProductEditData($event)" *ngIf="this.currentTab == 'manage-products'"></app-seller-manage-products>
+            <app-edit-product (dataEvent)="productUpdateStatus($event)" [productData]="this.productForEdit" *ngIf="this.currentTab == 'edit-product'"></app-edit-product>
+            <app-seller-orders *ngIf="this.currentTab == 'orders'"></app-seller-orders>
+            <app-seller-settings *ngIf="this.currentTab == 'settings'"></app-seller-settings>
+        </div>
+    </div>
+</div>

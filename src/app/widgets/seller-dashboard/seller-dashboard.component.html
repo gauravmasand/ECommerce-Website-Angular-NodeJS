@@ -1,0 +1,90 @@
+<div class="container">
+    <h1>Seller Dashboard</h1>
+    
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Total Orders</h5>
+            <p class="card-text">{{this.ordersCount}}</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Orders Completed</h5>
+            <p class="card-text">{{this.ordersCompleted}}</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Sales Cost</h5>
+            <p class="card-text">${{this.salesCost}}</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Total Products</h5>
+            <p class="card-text">{{this.productCount}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Recent Orders</h5>
+            <ul class="list-group" *ngFor="let item of orders; index as i">
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-3">
+                    <img src="{{this.product_image_path}}{{item.productImageName}}" alt="Product Image" class="img-fluid">
+                  </div>
+                  <div class="col-9">
+                    <h6>{{item.productTitle}}</h6>
+                    <p>Customer: {{item.customerName}}</p>
+                    <p>Total: {{sellingCostList[i]}}</p>
+                    <p>Order Date: {{item.date}}</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Top Products</h5>
+            <ul class="list-group" >
+              <li class="list-group-item" *ngFor="let item of higgestOrders; index as i">
+                <div class="row">
+                  <div class="col-3">
+                    <img src="{{this.product_image_path}}{{item.productImageName}}" alt="Product Image" class="img-fluid">
+                  </div>
+                  <div class="col-9">
+                    <h6>Product #{{i}}</h6>
+                    <p>Product Id: {{item.productId}}</p>
+                    <p>Selling Cost: {{higgestSellingCostList[i]}}</p>
+                    <p>Sales: {{item.totalSales}}</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

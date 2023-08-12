@@ -1,0 +1,72 @@
+<br>
+<div class="row">
+    <div class="col-md-9">
+        <!-- Cart Items -->
+        <h4>Your Cart</h4>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Actual Price</th>
+                    <th>Discount %</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of products; let i = index">
+                    <td>
+                        <img src="{{image_path}}{{item.productImages[0]}}" alt="Product 1" class="product-image"
+                            style="margin-right: 4px;" [width]="100">
+                    </td>
+                    <td class="col-md-3"><span>{{item.title}}</span></td>
+                    <td>${{item.actualCost}}</td>
+                    <td>{{item.discount}}% off</td>
+                    <td>${{discountedPrice[i]}}</td>
+                    <td>
+                        <div class="quantity-controls" style="display: flex;">
+                            <button class="btn btn-sm btn-primary decrease-quantity"
+                                (click)="changeQuantity(i, false)">-</button>
+                            <span class="quantity mx-2">{{quanties[i]}}</span>
+                            <button class="btn btn-sm btn-primary increase-quantity"
+                                (click)="changeQuantity(i, true)">+</button>
+                        </div>
+                    </td>
+                    <td>${{ (+discountedPrice[i]) * (+quanties[i]) }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-3">
+        <!-- Cart Summary -->
+        <h4>Cart Summary</h4>
+        <div class="card">
+            <div class="card-body">
+                <p class="mb-0">Actual Cost: <del>${{ totalPrice }}</del></p>
+                <p class="mb-0">Discount: ${{ totalDiscountCost }}</p>
+                <p class="mb-0">Total: ${{ totalPriceAfterDiscount }}</p>
+                <button class="btn btn-primary mt-2" (click)="showCheckout = true">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Checkout Modal -->
+<div style="min-width: 50%; background-color: white; border-radius: 5px;" class="checkout-modal" [ngClass]="{'show': showCheckout}">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div style="margin-top: 10px; margin-left: 10px;" class="modal-header">
+                <h5 class="modal-title">Checkout</h5>
+                <button style="margin-right: 10px;" type="button" class="close" aria-label="Close" (click)="closeCheckoutModal()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <app-checkout-product [quantity]="quanties" [products]="products"></app-checkout-product>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="overlay" [ngClass]="{'show': showCheckout}" (click)="closeCheckoutModal()"></div>
