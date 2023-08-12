@@ -1,27 +1,76 @@
-# Ecommerce
+# ECommerce Website (Angular + NodeJS)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
+Welcome to the ECommerce Website project! This repository contains the source code for an ECommerce website developed using Angular for the frontend and Node.js for the backend.
 
-## Development server
+## Project Overview
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This project aims to create a modern and user-friendly ECommerce website that allows customers to browse products, make purchases, and sellers to manage their products and orders.
 
-## Code scaffolding
+### Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Browse and search for products
+- View product details including images, prices, and descriptions
+- Add products to the shopping cart
+- Proceed to checkout and make purchases
+- Seller dashboard to manage products and orders
 
-## Build
+## Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Frontend: Angular
+- Backend: Node.js, Express
+- Database: MongoDB
+- UI Framework: Bootstrap
 
-## Running unit tests
+## Getting Started
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Follow these steps to set up and run the project locally on your machine.
 
-## Running end-to-end tests
+### Prerequisites
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Make sure you have the following software installed:
 
-## Further help
+- Node.js: [Download Link](https://nodejs.org/)
+- MongoDB: [Download Link](https://www.mongodb.com/try/download/community)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/ecommerce.git 
+```
+
+## Navigate to the project directory:
+```
+cd ecommerce
+```
+## Install frontend and backend dependencies:
+
+```
+npm install
+```
+## Setting Up the Database
+1. Make sure MongoDB is running on your machine.
+2. Import the sample database data:
+```
+mongorestore --db ecommerce-site database-data/
+```
+## Running the Server
+1. Start the backend server using nodemon:
+```
+npm run dev
+```
+or
+```
+nodemon ./index.js
+```
+## Running the Frontend
+1. Start the frontend development server:
+```
+ng serve --open
+```
+
+## Project Structure
+ * src/: Source code for both frontend and backend.
+ * database-data/: Sample database data to import.
+ * screenshots/: Screenshots of the project.
